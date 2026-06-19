@@ -1,0 +1,14 @@
+# Ignore generated backup artifacts by default.
+*
+
+# Keep docs and the rolling export directory.
+!README.md
+!.gitignore
+!paperclip-local-dev/
+!paperclip-local-dev/current/
+!paperclip-local-dev/current/**
+
+# Local-only (large / redundant).
+paperclip-local-dev/archives/
+paperclip-local-dev/backup-schedule.log
+paperclip-local-dev/current/secrets/

@@ -1,0 +1,20 @@
+{
+  "createdAt": "2026-06-19T22:03:17.097Z",
+  "instanceRoot": "/Users/gavin/Projects/paperclip/data/local-dev/instances/default",
+  "paperclipVersion": null,
+  "files": {
+    "database.sql": {
+      "bytes": 115518,
+      "sha256": "1101fb4fec11d98a9b6100c05fd00ac3e63229e2ccb3d0b75b91f0f79cae5500"
+    },
+    "config.json": null,
+    "storage.tar.gz": null,
+    "workspaces.tar.gz": null,
+    "projects.tar.gz": null
+  },
+  "restoreNotes": [
+    "database.sql restores companies, agents, issues, goals, comments, and metadata",
+    "secrets/master.key is NOT backed up here — keep a separate copy or secrets are unrecoverable",
+    "Optional *.tar.gz bundles restore uploads and agent workspaces"
+  ]
+}
